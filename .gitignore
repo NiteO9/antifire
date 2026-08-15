@@ -1,0 +1,64 @@
+# Gradle
+.gradle/
+build/
+.gradle.lockfiles/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio generated files and folders
+captured-images/
+.capture/
+.externalNativeBuild/
+.cxx/
+*.so
+
+# Gradle user home
+~/.gradle/
+
+# Google Services
+google-services.json
+GoogleService-Info.plist
+
+# Version control
+vcs.xml
+
+# Crashlytics
+com.crashlytics.idea.trace
+com.crashlytics.idea.md5
+com.crashlytics.idea.backup
+com.crashlytics.idea.bak
+com.crashlytics.build
+com.crashlytics.newline-segments
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/test_output
+fastlane/deploy/
+
+# Android files
+*.apk
+*.ap_
+*.aab
+*.apks
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.tgz
+
+# Keystore files
+*.keystore
+*.jks
+
+# External native build folder
+.externalNativeBuild/
+
+# IDE
+.idea
+*.iml
+.studio
+*.swo
+*.swp
+*.tmp

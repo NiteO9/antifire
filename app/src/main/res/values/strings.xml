@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- English strings -->
+    <string name="app_name">AntiFire</string>
+    <string name="app_welcome">Welcome to AntiFire</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Black/Green/Blue visual direction for AntiFire -->
+    <color name="black">#000000</color>
+    <color name="black_10">#100000</color>
+    <color name="black_20">#200000</color>
+    <color name="dark_green">#00FF00</color>
+    <color name="green">#00CC00</color>
+    <color name="blue">#0066CC</color>
+    <color name="dark_blue">#003366</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_10">#FFFFFF10</color>
+    <color name="gray_80">#CCCCCC</color>
+    <color name="gray_60">#999999</color>
+    <color name="gray_40">#666666</color>
+    <color name="gray_20">#333333</color>
+</resources>
