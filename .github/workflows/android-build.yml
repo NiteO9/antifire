@@ -28,9 +28,11 @@ jobs:
           build-tools: 37.0.0
           script: |
             echo "Android SDK configured"
-            sdkmanager "platforms;android-37"
-            sdkmanager "build-tools;37.0.0"
 
+      - name: Install Android Platform 37
+        run: |
+          echo "y" | sdkmanager "platforms;android-37.1" "build-tools;37.0.0"
+          
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
         with:

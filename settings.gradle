@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "AntiFire"
-include(":app")
+include ":app"
