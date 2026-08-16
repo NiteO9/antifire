@@ -2,11 +2,9 @@ package com.antifire.owl.ui.main
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import javax.inject.Inject
 
 /**
  * Main ViewModel for the AntiFire application.
@@ -16,8 +14,7 @@ import javax.inject.Inject
  * This establishes the MVVM pattern foundation. More complex ViewModels
  * will be added in later phases as functionality is implemented.
  */
-@HiltViewModel
-class MainViewModel @Inject constructor() : ViewModel() {
+class MainViewModel : ViewModel() {
 
     private val _uiState = MutableStateFlow<MainUiState>(MainUiState.Loading)
     val uiState: StateFlow<MainUiState> = _uiState
